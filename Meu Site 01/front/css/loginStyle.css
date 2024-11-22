@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+form {
+    width: 300px;
+    margin: 200px auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    box-shadow: 0 0 100px 1px rgba(70, 69, 69, 0.5); /* Sombra visível em todos os lados */
+}
+
+a {
+    color: #2B193D;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1d1b1f;
+}
+
+h2 {
+    color: #5f3d80;
+}
+
+.input {
+    display: block;
+    color: white;
+    margin: 10px auto;
+    width: 250px;
+    height: 25px;
+}
+
+.cadastro {
+    display: none;
+    color: black;
+    margin: 10px auto;
+}
+.login {
+    display: block ;
+    color: black;
+    margin: 10px auto;
+}
+
+
+
+.botaoCadastro {
+    color: #DFE0E2;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 25px;
+    width: 100px;
+    background-color: #5f3d80;
+}
+
+.botaoCadastro:hover {
+    background-color: #2f1f3f;
+}
+
+.botaoLogin {
+    color: #DFE0E2;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 25px;
+    width: 100px;
+    background-color: #5f3d80;
+}
+
+.botaoLogin:hover {
+    background-color: #2f1f3f;
+}
+
