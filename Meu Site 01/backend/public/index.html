@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/loginStyle.css">
+</head>
+
+<body>
+    <!-- Formulário de Cadastro -->
+    <div class="cadastro" id="cadastro">
+        <form onsubmit="cadastrar(event)">
+            <h2>Cadastro</h2>
+            <input class="input" type="text" id="nomeUser" placeholder="Insira seu nome" required>
+            <input class="input" type="text" id="sobrenomeUser" placeholder="Insira seu sobrenome" required>
+            <input class="input" type="email" id="emailUser" placeholder="Informe seu email" required>
+            <input class="input" type="password" id="senhaUser" placeholder="Digite uma senha" required>
+            <button type="submit" class="botaoCadastro">Cadastrar</button>
+            <a href="#" onclick="mostrarLogin()">Fazer login</a>
+        </form>
+    </div>
+
+    <!-- Formulário de Login -->
+    <div class="login" id="login">
+        <form onsubmit="login(event)">
+            <h2>Fazer login</h2>
+            <input class="input" type="email" id="loginEmail" placeholder="Informe seu email" required>
+            <input class="input" type="password" id="loginSenha" placeholder="Digite sua senha" required>
+            <button type="submit" class="botaoLogin">Login</button>
+            <a href="#" onclick="mostrarCadastro()">Clique para cadastrar</a>
+        </form>
+    </div>
+    <!-- Botão de Logout -->
+    <button id="logoutButton" onclick="logout()">Logout</button>
+
+
+ <script src="js/login.js"></script>
+</body>
+
+</html>
