@@ -3,10 +3,13 @@ const mysql = require('mysql2');
 // Configuração da conexão com o banco de dados
 const connection = mysql.createConnection({
   host: 'localhost',
-  user: 'root', // ou o seu nome de usuário do MySQL
-  password: 'OP90!!hj', // sua senha do MySQL
-  database: 'meusite01' // o nome do seu banco de dados
+  user: 'root', 
+  password: 'OP90!!hj', 
+  database: 'meusite01' 
 });
+
+
+
 
 // Conectar ao banco de dados
 connection.connect((err) => {
